@@ -1,0 +1,51 @@
+
+.slider{
+  display:flex;
+  position: relative;
+  margin: 43px 0 104px;
+ @media (max-width: 320px) {
+   margin: 43px 0 23px;
+ }
+}
+/*.swiper-slide{
+  padding-right: 150px;
+}*/
+.slide-block{
+  width: 320px;
+
+  &__number{
+    font-family:  "Bebas Neue", sans-serif;
+    color: #3877EE;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 400;
+    @media(max-width: 320px) {
+      font-size: 16px;
+      line-height: 19.2px;
+    }
+  }
+
+  &__desc {
+    color: #42567A;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 15px;
+    @media(max-width: 320px) {
+      font-size: 14px;
+      line-height: 20.3px;
+    }
+  }
+  @media (max-width: 320px) {
+    width: 166px;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

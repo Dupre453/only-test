@@ -1,0 +1,31 @@
+.name-block{
+padding-top: 125px;
+  @media (max-width: 320px) {
+    padding-top: 59px;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 56px;
+    color: #42567A;
+    width: 353px;
+    line-height: 67.2px;
+    margin-left: 78px;
+
+    @media (max-width: 320px) {
+      font-size: 20px;
+      width: 123px;
+      line-height: 24px;
+      margin-left: 20px;
+    }
+  }
+  &__gradient-line{
+    position: absolute;
+    width: 5px;
+    height: 120px;
+    background: linear-gradient(#3877EE, #EF5DA8);
+    @media (max-width: 320px) {
+      display: none;
+      visibility: hidden;
+    }
+  }
+}
